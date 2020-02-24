@@ -1,5 +1,5 @@
 const Student = require('../models/student');
-const Mark = require('../models/mark');
+const Mark = require('../models/marks');
 
 test('returns A for mark greater than 80', () => {
     const student = new Student("Isaiah","S6");
